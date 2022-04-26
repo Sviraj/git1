@@ -5,8 +5,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import Topbar from "./components/Topbar/Topbar";
 import AddProject from "./pages/AddProject/AddProject";
-import Home from "./pages/Home/Home";
+import Project from "./pages/Project/Project";
 import Sidebar from "./components/Sidebar/Sidebar";
+import Home1 from "./pages/Home1/Home1";
  
 
 function App() {
@@ -20,9 +21,10 @@ function App() {
             <ToastContainer position="top-center"/>
           <Routes>
               
-              <Route exact path='/' element={<Home/>} />
+              <Route exact path ='/' element={<Home1/>} />
+              <Route path ='/project' element={<Project/>} />
               <Route path='/addProject' element={<AddProject/>} />
-              <Route path='/update/:project_ID' element={<AddProject/>} />
+               
           </Routes>
        
     </div>

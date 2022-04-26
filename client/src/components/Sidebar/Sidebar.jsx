@@ -15,13 +15,8 @@ export default function Sidebar() {
                 Home
               </li>
             </Link>
-            <Link to="/users" className="link">
-              <li className="sidebarListItem">
-                <div className="sidebarIcon" />
-                Users
-              </li>
-            </Link>
-            <Link to="/" className="link">
+             
+            <Link to="/project" className="link">
               <li className="sidebarListItem">
                 <div className="sidebarIcon" />
                 Projects
