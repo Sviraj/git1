@@ -7,7 +7,7 @@ import Topbar from "./components/Topbar/Topbar";
 import AddProject from "./pages/AddProject/AddProject";
 import Project from "./pages/Project/Project";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Home1 from "./pages/Home1/Home1";
+import Home1 from "./pages/Home/Home";
  
 
 function App() {

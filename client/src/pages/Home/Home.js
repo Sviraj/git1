@@ -1,6 +1,6 @@
-import "./Home1.css";
+import "./Home.css";
  
-const Home1 = () => {
+const Home = () => {
     return(
 
     <div className="featured">
@@ -30,4 +30,4 @@ const Home1 = () => {
 
 };
 
-export default Home1;
+export default Home;

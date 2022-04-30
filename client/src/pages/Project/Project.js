@@ -11,9 +11,11 @@ const Project = () => {
         const response =await axios.get("http://localhost:5000/api/get");
         setData(response.data);
     };
+
     useEffect(() => {
         loadData();
     }, []);
+    
 
     const deleteContact = (project_ID) => {
         if (

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Topbar.css";
+import { Link } from "react-router-dom";
  
  
 
@@ -8,7 +9,9 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topLeft">
+        <Link to="/" className="link">   
           <span className="logo">Employee Management System</span>
+        </Link>  
         </div>
         <div className="topRight">
           <div className="topbarIconContainer">
